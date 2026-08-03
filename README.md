@@ -85,4 +85,4 @@ sns.heatmap(df.corr())
 
 
 # RESULT
-        
+        EDA Analysis on the given data set has successfully uploaded
