@@ -27,6 +27,9 @@ import pandas as pd
 df=pd.read_csv("titanic_dataset.csv")  
 print(df)  
 <img width="903" height="816" alt="image" src="https://github.com/user-attachments/assets/07c2d70d-552e-4d69-a617-da47627d8040" />
+df.info()   
+<img width="405" height="365" alt="image" src="https://github.com/user-attachments/assets/d927dcf9-8383-47c0-8560-0508eb710557" />
+
 
 
 # RESULT
