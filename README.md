@@ -53,6 +53,15 @@ import seaborn as sns
 sns.boxplot(data=df,x="Age")      
 <img width="807" height="567" alt="image" src="https://github.com/user-attachments/assets/1bbff6f7-2f6e-4d1a-991f-b1f8b0aae45a" />
 
+sns.countplot(data=df,x="Survived")   
+<img width="876" height="567" alt="image" src="https://github.com/user-attachments/assets/27f110a4-8ced-47a1-8888-1808e9289dfb" />
+
+sns.histplot(data=df,x="Age")   
+
+<img width="868" height="537" alt="image" src="https://github.com/user-attachments/assets/90137003-a600-4a83-9816-c7d3962ea18c" />
+
+
+
 
 
 
