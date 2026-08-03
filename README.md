@@ -34,6 +34,10 @@ df.info()
 df.dtypes   
 <img width="290" height="297" alt="image" src="https://github.com/user-attachments/assets/a02fa669-7efb-4987-ab2b-b16bc0386f23" />
 
+df.shape   
+<img width="186" height="30" alt="image" src="https://github.com/user-attachments/assets/fbdbb6c9-41c5-421e-bc67-5b20fa61a54b" />
+
+
 
 
 
