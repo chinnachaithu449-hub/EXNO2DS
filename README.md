@@ -28,7 +28,7 @@ import pandas as pd
 df=pd.read_csv("titanic_dataset.csv")
 print(df)
 <img width="1276" height="751" alt="image" src="https://github.com/user-attachments/assets/ec856ff3-1c04-4405-986e-55fb855460c6" />
-``
+```
 
 # RESULT
         <<INCLUDE YOUR RESULT HERE>>
