@@ -94,9 +94,11 @@ df
 sns.scatterplot(x=df['Age'],y=df['Fare'])
 ~~~ 
 <img width="902" height="565" alt="image" src="https://github.com/user-attachments/assets/272dbb22-2dbc-435d-ac29-4c9cbd82fc4d" />
+
 ~~~
 sns.boxplot(x=df['Age'],y=df['Fare'])
 ~~~
+
 <img width="867" height="587" alt="image" src="https://github.com/user-attachments/assets/c2f8a5fd-0cec-40b7-8652-064c014ef68e" />
 
 ~~~
