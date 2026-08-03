@@ -23,8 +23,9 @@ STEP 7: Use cross tabulation method to quantitatively analyze the relationship b
 STEP 8: Use heatmap method of representation to show relationships between two variables, one plotted on each axis.
 
 ## CODING AND OUTPUT
-<img width="1293" height="91" alt="image" src="https://github.com/user-attachments/assets/29c412ab-2c76-462b-970a-d83c575738c5" />
-<img width="1250" height="122" alt="image" src="https://github.com/user-attachments/assets/5bb09649-5c6f-4f33-b6a1-59cc98e86827" />
+import pandas as pd  
+df=pd.read_csv("titanic_dataset.csv")  
+print(df)  
 <img width="903" height="816" alt="image" src="https://github.com/user-attachments/assets/07c2d70d-552e-4d69-a617-da47627d8040" />
 
 
