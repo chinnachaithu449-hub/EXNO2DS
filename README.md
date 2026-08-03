@@ -41,10 +41,22 @@ df.shape
  <img width="842" height="286" alt="image" src="https://github.com/user-attachments/assets/053c1fae-e4d0-47c6-a1ba-18074be1860b" />
 
 df.value_counts()   
-<img width="965" height="502" alt="image" src="https://github.com/user-attachments/assets/3a55552d-4032-4aa8-bb3f-d0bf1767dc91" />
+<img width="1070" height="487" alt="image" src="https://github.com/user-attachments/assets/2de9d9a5-9350-48db-aacd-f7338f8b667b" />
 
 df["Survived"].value_counts()   
-<img width="1070" height="487" alt="image" src="https://github.com/user-attachments/assets/2de9d9a5-9350-48db-aacd-f7338f8b667b" />
+<img width="427" height="75" alt="image" src="https://github.com/user-attachments/assets/f9c3308c-42b5-42de-8ab3-132d2266c7b6" />
+
+df.nunique()  
+<img width="400" height="302" alt="image" src="https://github.com/user-attachments/assets/d088f19a-2fa5-4580-a68e-5a8eb9a66318" />
+
+import seaborn as sns
+sns.boxplot(data=df,x="Age")   
+<img width="807" height="567" alt="image" src="https://github.com/user-attachments/assets/1bbff6f7-2f6e-4d1a-991f-b1f8b0aae45a" />
+
+
+
+
+
 
  
 
