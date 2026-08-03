@@ -49,8 +49,8 @@ df["Survived"].value_counts()
 df.nunique()  
 <img width="400" height="302" alt="image" src="https://github.com/user-attachments/assets/d088f19a-2fa5-4580-a68e-5a8eb9a66318" />
 
-import seaborn as sns
-sns.boxplot(data=df,x="Age")   
+import seaborn as sns   
+sns.boxplot(data=df,x="Age")      
 <img width="807" height="567" alt="image" src="https://github.com/user-attachments/assets/1bbff6f7-2f6e-4d1a-991f-b1f8b0aae45a" />
 
 
