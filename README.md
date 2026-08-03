@@ -30,7 +30,8 @@ print(df)
 
 df.info()   
 <img width="405" height="365" alt="image" src="https://github.com/user-attachments/assets/d927dcf9-8383-47c0-8560-0508eb710557" />
-df.dtypes   
+df.dtypes 
+
 <img width="290" height="297" alt="image" src="https://github.com/user-attachments/assets/a02fa669-7efb-4987-ab2b-b16bc0386f23" />
 
 
