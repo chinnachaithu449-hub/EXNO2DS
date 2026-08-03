@@ -69,7 +69,8 @@ df.nunique()
 ~~~
 import seaborn as sns   
 sns.boxplot(data=df,x="Age")
-~~~   
+~~~
+
 <img width="807" height="567" alt="image" src="https://github.com/user-attachments/assets/1bbff6f7-2f6e-4d1a-991f-b1f8b0aae45a" />
 
 ~~~
