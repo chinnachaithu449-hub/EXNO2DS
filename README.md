@@ -63,25 +63,26 @@ df.rename(columns={'Sex':'Gender'},inplace=True)
 df  
 <img width="1085" height="505" alt="image" src="https://github.com/user-attachments/assets/ed2afa6c-255c-43c0-ba6d-787cf6f30345" />
 
+sns.scatterplot(x=df['Age'],y=df['Fare'])  
+<img width="902" height="565" alt="image" src="https://github.com/user-attachments/assets/272dbb22-2dbc-435d-ac29-4c9cbd82fc4d" />
 
+sns.boxplot(x=df['Age'],y=df['Fare'])   
+<img width="867" height="587" alt="image" src="https://github.com/user-attachments/assets/c2f8a5fd-0cec-40b7-8652-064c014ef68e" />
 
+sns.barplot(x=df['Age'],y=df['Survived'])  
+<img width="861" height="607" alt="image" src="https://github.com/user-attachments/assets/fb756b45-34df-49d2-a5f0-38c5ba8e4573" />
 
+sns.boxplot(x="Pclass",y="Age",hue="Gender",data=df)  
+<img width="853" height="577" alt="image" src="https://github.com/user-attachments/assets/9b2a4343-52a1-4d58-ae1c-86f9b9606a18" />
 
+sns.catplot(data=df,col='Survived',x='Gender',hue='Pclass',kind='count')  
+<img width="1112" height="565" alt="image" src="https://github.com/user-attachments/assets/176f595a-960a-41d4-96a1-49babeafa588" />
 
-
-
-
-
-
- 
-
-
-
-
-
+sns.heatmap(df.corr())  
+<img width="927" height="615" alt="image" src="https://github.com/user-attachments/assets/317342a6-a93a-44c3-9452-26a2677d677f" />
 
 
 
 
 # RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+        
