@@ -27,6 +27,7 @@ import pandas as pd
 df=pd.read_csv("titanic_dataset.csv")  
 print(df)  
 <img width="903" height="816" alt="image" src="https://github.com/user-attachments/assets/07c2d70d-552e-4d69-a617-da47627d8040" />
+
 df.info()   
 <img width="405" height="365" alt="image" src="https://github.com/user-attachments/assets/d927dcf9-8383-47c0-8560-0508eb710557" />
 
@@ -38,6 +39,17 @@ df.shape
 
  df.describe()   
  <img width="842" height="286" alt="image" src="https://github.com/user-attachments/assets/053c1fae-e4d0-47c6-a1ba-18074be1860b" />
+
+df.value_counts()   
+<img width="965" height="502" alt="image" src="https://github.com/user-attachments/assets/3a55552d-4032-4aa8-bb3f-d0bf1767dc91" />
+
+df["Survived"].value_counts()   
+<img width="1070" height="487" alt="image" src="https://github.com/user-attachments/assets/2de9d9a5-9350-48db-aacd-f7338f8b667b" />
+
+ 
+
+
+
 
 
 
